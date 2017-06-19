@@ -1,6 +1,3 @@
-/**
- * 
- */
 package principal;
 
 /**
@@ -17,11 +14,9 @@ public class PosTeste {
 		System.out.println(nome);
 	}
 	
-	/**
-	 * @param args
-	 */
+	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		PosTeste	p	=	new	PosTeste();
 		p.atribui("bruno");
 		
