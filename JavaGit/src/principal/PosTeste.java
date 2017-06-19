@@ -13,6 +13,7 @@ package principal;
 		
 		PosTeste	p	=	new	PosTeste();
 		p.atribui("bruno");
+		
 		//TESTE DE COMENTÁRIO
 	}
 
