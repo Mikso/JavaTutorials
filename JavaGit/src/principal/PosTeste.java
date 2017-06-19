@@ -1,12 +1,6 @@
 package principal;
 
-/**
- * @author Bruno
- * @see Git hub
- * @version 1.0
- * {@value Um teste simples}
- */
-public class PosTeste {
+ class PosTeste {
 	String nome	=	null;
 	
 	private void atribui(String nome){
