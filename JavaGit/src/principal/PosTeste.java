@@ -1,9 +1,11 @@
 package principal;
 
  class PosTeste {
-	String nome	=	null;
+	
+	 String nome	=	null;
 	
 	private void atribui(String nome){
+		
 		nome	=	"bruno";
 		System.out.println(nome);
 	}
@@ -14,7 +16,7 @@ package principal;
 		PosTeste	p	=	new	PosTeste();
 		p.atribui("bruno");
 		
-		//TESTE DE COMENTÁRIO
+		
 	}
 
 }
