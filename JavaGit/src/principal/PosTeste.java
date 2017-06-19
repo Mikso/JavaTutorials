@@ -12,23 +12,18 @@ package principal;
 public class PosTeste {
 	String nome	=	null;
 	
-	/**
-	 * 
-	 */
-	public PosTeste() {
-		// TODO Auto-generated constructor stub
+	private void atribui(String nome){
+		nome	=	"bruno";
 		System.out.println(nome);
 	}
 	
-	void metodo(String nome){
-		this.nome="bruno";
-	}
-
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		PosTeste	p	=	new	PosTeste();
+		p.atribui("bruno");
 		
 	}
 
